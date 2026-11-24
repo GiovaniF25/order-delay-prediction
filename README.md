@@ -7,8 +7,6 @@ This project uses simulated orders to compare an unrestricted decision tree with
 From the repository folder on Linux or WSL, run these commands with Python 3.12.
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
 python -m pip install -r requirements.txt
 python model.py train
 python model.py predict --data data/prediction_example.csv
@@ -48,4 +46,4 @@ The tuned tree detected 54 of the 81 delays and flagged 83 orders that arrived o
 
 ## Notebook
 
-Open [analysis.ipynb](analysis.ipynb) in VS Code with the Jupyter extension, select the virtual environment as the kernel, and run all cells. The notebook shows the confusion matrix and the top levels of the tuned tree.
+Open [analysis.ipynb](analysis.ipynb) in VS Code with the Jupyter extension, select a Python kernel with the project dependencies installed, and run all cells. The notebook shows the confusion matrix and the top levels of the tuned tree.
