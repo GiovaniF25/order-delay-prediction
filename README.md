@@ -4,7 +4,7 @@ This project uses simulated orders to compare an unrestricted decision tree with
 
 ## Run locally
 
-From the repository folder on Linux or WSL, run these commands with Python 3.12.
+Run these commands from the repository folder with Python 3.12.
 
 ```bash
 python -m pip install -r requirements.txt
